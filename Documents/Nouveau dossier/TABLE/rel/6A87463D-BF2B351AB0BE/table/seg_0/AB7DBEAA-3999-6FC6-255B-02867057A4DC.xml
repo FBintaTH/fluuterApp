@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB7DBEAA-3999-6FC6-255B-02867057A4DC" schemaObject="D8AAF2E0-7B60-883E-4773-E64F4E21F863" name="JOB_GRADES">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>IAGE</sourceObjSchema>
+<sourceObjName>JOB_GRADES</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GRADE_LEVEL" id="C8314300-ADC6-A780-BB36-7DD7C8FA28F9">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>JOB_GRADES</sourceObjSchema>
+<sourceObjName>GRADE_LEVEL</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOWEST_SAL" id="A5376068-2274-443B-B5DD-A988B94EA216">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>JOB_GRADES</sourceObjSchema>
+<sourceObjName>LOWEST_SAL</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIGHEST_SAL" id="30FFCCBA-B33B-DFE8-E5BA-4FEB0890724B">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>JOB_GRADES</sourceObjSchema>
+<sourceObjName>HIGHEST_SAL</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

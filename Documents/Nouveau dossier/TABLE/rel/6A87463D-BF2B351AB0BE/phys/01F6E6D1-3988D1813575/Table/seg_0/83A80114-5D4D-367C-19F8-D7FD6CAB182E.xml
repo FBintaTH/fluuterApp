@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="JOB_HISTORY" directorySegmentName="seg_0" id="83A80114-5D4D-367C-19F8-D7FD6CAB182E">
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<schemaObject>D8AAF2E0-7B60-883E-4773-E64F4E21F863</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>DC460F7B-7879-2FE0-B439-C55808F7BFB1</segment>
+<tableSpace>B66E1A49-0C5B-1863-1432-844B7B71FD96</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="JOB_ID" id="3EF712BD-CA24-E98B-E84A-1199D69DE0FB">
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLOYEE_ID" id="A2B52BA2-A77E-F623-7C0B-DF1DD40BB17C">
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_ID" id="E603DE90-F526-3951-D723-37AC4B1269CE">
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="ED238459-1E83-4746-ACA6-28BC2157FB90">
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="F36ADABC-240C-2BA5-E4AC-251E6A304090">
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev20c>

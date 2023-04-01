@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8299DFF7-5033-0F94-05B1-8C2934E1DCD9" schemaObject="D8AAF2E0-7B60-883E-4773-E64F4E21F863" name="DEPARTMENTS">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>IAGE</sourceObjSchema>
+<sourceObjName>DEPARTMENTS</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPARTMENT_ID" id="5247FC6B-01D4-D987-668C-E7E8FBD2D7EC">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>DEPARTMENT_ID</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENT_NAME" id="F9333885-F173-8981-3D7B-EF8A5D997899">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>DEPARTMENT_NAME</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANAGER_ID" id="DF30A1F9-D0E2-B770-99E2-97B6693D7F39">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>MANAGER_ID</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION_ID" id="6DB39529-555C-06B1-6E72-32EAD32C5932">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>LOCATION_ID</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FCB2283-972A-990E-D6FD-4C328FBDD39D" referredColumn="6E68F8F1-0165-63C9-24A6-604918329979"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF8D5CA2-FC98-1014-BE77-F6C27BB35495" name="PK_DEPARTMENTS">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>IAGE</sourceObjSchema>
+<sourceObjName>PK_DEPARTMENTS</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:57:14 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5247FC6B-01D4-D987-668C-E7E8FBD2D7EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22A6E160-E92B-7822-2FC4-DEF1A4A1A979" schemaObject="D8AAF2E0-7B60-883E-4773-E64F4E21F863" name="PK_DEPARTMENTS">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>IAGE</sourceObjSchema>
+<sourceObjName>PK_DEPARTMENTS</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:57:07 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5247FC6B-01D4-D987-668C-E7E8FBD2D7EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC9AF706-8A43-A967-61BC-41D02B8629AC" name="FK_LOCATION_ID">
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:57:21 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DB39529-555C-06B1-6E72-32EAD32C5932"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

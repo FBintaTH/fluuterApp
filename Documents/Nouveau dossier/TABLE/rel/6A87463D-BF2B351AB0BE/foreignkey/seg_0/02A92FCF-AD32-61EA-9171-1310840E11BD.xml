@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="02A92FCF-AD32-61EA-9171-1310840E11BD" containerWithKeyObject="E948322D-F741-C30E-0D93-DC19ACA00E69" localFKIndex="67D8C570-1915-BA05-E647-CE91AA9DDCD1" name="FK_DEPARTMENT_ID">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>IAGE</sourceObjSchema>
+<sourceObjName>FK_DEPARTMENT_ID</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:57:21 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<referredTableLongName>IAGE.DEPARTMENTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8299DFF7-5033-0F94-05B1-8C2934E1DCD9</referredTableID>
+<keyObject>AF8D5CA2-FC98-1014-BE77-F6C27BB35495</keyObject>
+<referredKeyID>AF8D5CA2-FC98-1014-BE77-F6C27BB35495</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>DEPARTMENT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

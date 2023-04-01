@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" directorySegmentName="seg_0" id="B66E1A49-0C5B-1863-1432-844B7B71FD96">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>IAGE</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

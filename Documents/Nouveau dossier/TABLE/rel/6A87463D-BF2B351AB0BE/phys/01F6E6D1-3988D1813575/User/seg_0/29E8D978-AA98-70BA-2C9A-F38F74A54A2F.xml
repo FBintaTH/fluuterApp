@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="IAGE" directorySegmentName="seg_0" id="29E8D978-AA98-70BA-2C9A-F38F74A54A2F">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjName>IAGE</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:57 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<schemaObject>D8AAF2E0-7B60-883E-4773-E64F4E21F863</schemaObject>
+</UserOraclev10g>

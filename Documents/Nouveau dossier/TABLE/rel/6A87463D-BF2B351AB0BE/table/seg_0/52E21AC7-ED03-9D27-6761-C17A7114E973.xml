@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52E21AC7-ED03-9D27-6761-C17A7114E973" schemaObject="D8AAF2E0-7B60-883E-4773-E64F4E21F863" name="LOCATIONS">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>IAGE</sourceObjSchema>
+<sourceObjName>LOCATIONS</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOCATION_ID" id="6E68F8F1-0165-63C9-24A6-604918329979">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>LOCATION_ID</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STREET_ADDRESS" id="555D0670-E867-5B93-B21B-E2FBA209B89A">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>STREET_ADDRESS</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTAL_CODE" id="D928EAE4-8641-A5E4-8DF8-ADA4ADBA8566">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>POSTAL_CODE</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="D39954D0-5AB9-45B3-A6FC-459705AE7F44">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE_PROVINCE" id="D5C29DE1-759B-00B7-10D2-90A5D58EFC49">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>STATE_PROVINCE</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_ID" id="86412A6B-D7DB-6077-2604-3B739A4BEA4F">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>COUNTRY_ID</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB922341-215F-C0B6-A8E2-345579127890" name="PK_LOCATIONS">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>IAGE</sourceObjSchema>
+<sourceObjName>PK_LOCATIONS</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:57:14 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E68F8F1-0165-63C9-24A6-604918329979"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC206252-B3CF-977B-D768-6335613F91AE" schemaObject="D8AAF2E0-7B60-883E-4773-E64F4E21F863" name="PK_LOCATIONS">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>IAGE</sourceObjSchema>
+<sourceObjName>PK_LOCATIONS</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:57:07 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E68F8F1-0165-63C9-24A6-604918329979"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

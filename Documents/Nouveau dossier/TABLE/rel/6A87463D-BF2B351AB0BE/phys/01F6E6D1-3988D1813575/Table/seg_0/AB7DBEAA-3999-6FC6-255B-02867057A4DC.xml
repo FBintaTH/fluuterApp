@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="JOB_GRADES" directorySegmentName="seg_0" id="AB7DBEAA-3999-6FC6-255B-02867057A4DC">
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<schemaObject>D8AAF2E0-7B60-883E-4773-E64F4E21F863</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>DC460F7B-7879-2FE0-B439-C55808F7BFB1</segment>
+<tableSpace>B66E1A49-0C5B-1863-1432-844B7B71FD96</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="HIGHEST_SAL" id="30FFCCBA-B33B-DFE8-E5BA-4FEB0890724B">
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOWEST_SAL" id="A5376068-2274-443B-B5DD-A988B94EA216">
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GRADE_LEVEL" id="C8314300-ADC6-A780-BB36-7DD7C8FA28F9">
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:56:59 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev20c>

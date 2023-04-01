@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1FCB2283-972A-990E-D6FD-4C328FBDD39D" containerWithKeyObject="8299DFF7-5033-0F94-05B1-8C2934E1DCD9" localFKIndex="AC9AF706-8A43-A967-61BC-41D02B8629AC" name="FK_LOCATION_ID">
+<sourceConnName>BINTA</sourceConnName>
+<sourceObjSchema>IAGE</sourceObjSchema>
+<sourceObjName>FK_LOCATION_ID</sourceObjName>
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:57:21 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<referredTableLongName>IAGE.LOCATIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>52E21AC7-ED03-9D27-6761-C17A7114E973</referredTableID>
+<keyObject>EB922341-215F-C0B6-A8E2-345579127890</keyObject>
+<referredKeyID>EB922341-215F-C0B6-A8E2-345579127890</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>LOCATION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

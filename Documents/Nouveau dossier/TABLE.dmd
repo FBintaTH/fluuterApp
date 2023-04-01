@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TABLE" id="CDA5A529-80E5-59FB-78E3-F2F51E5690DE" version="3.5">
+<createdBy>BMD TECH</createdBy>
+<createdTime>2023-04-01 13:11:51 UTC</createdTime>
+<ownerDesignName>TABLE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CDA5A529-80E5-59FB-78E3-F2F51E5690DE</designId>
+</OSDM_Design>
